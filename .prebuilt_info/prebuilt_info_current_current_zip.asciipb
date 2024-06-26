@@ -1,6 +1,18 @@
 drops {
   android_build_drop {
+<<<<<<< HEAD
+<<<<<<< HEAD
     build_id: "T1009772"
+||||||| merged common ancestors
+    build_id: "T1010120"
+=======
+    build_id: "T1010137"
+>>>>>>> 37933598d1e621511394015ea7325a0855cf1c55
+||||||| 3793359
+    build_id: "T1010137"
+=======
+    build_id: "T1010146"
+>>>>>>> 8e18a80afb58d54a25754deb448a74ea49e31089
     target: "train_build"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.sdkext/sdk/sdkextensions-sdk-current.zip"
   }
