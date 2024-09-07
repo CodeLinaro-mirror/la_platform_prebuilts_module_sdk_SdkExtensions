@@ -1,6 +1,18 @@
 drops {
   android_build_drop {
+<<<<<<< HEAD
     build_id: "T1010137"
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    build_id: "T1010146"
+||||||||| 413e0c5
+    build_id: "T1010120"
+=========
+    build_id: "T1010179"
+>>>>>>>>> Temporary merge branch 2
+=======
+    build_id: "T1010179"
+>>>>>>> 2d44a85b2748291018b76ce300f2d17e4f462eaf
     target: "train_build"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.sdkext/sdk/sdkextensions-sdk-current.zip"
   }
