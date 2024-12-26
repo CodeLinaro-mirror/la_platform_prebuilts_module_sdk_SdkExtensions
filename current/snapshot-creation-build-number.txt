@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-11976196
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
-11985099
-||||||||| 413e0c5
-11962944
-=========
-12161022
->>>>>>>>> Temporary merge branch 2
-=======
-12161022
->>>>>>> 2d44a85b2748291018b76ce300f2d17e4f462eaf
+12347640
