@@ -75,3 +75,9 @@ license {
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
 }
+
+license {
+    name: "sdkextensions-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
+}
