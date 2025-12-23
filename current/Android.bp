@@ -35,11 +35,6 @@ prebuilt_bootclasspath_fragment {
 
 java_sdk_library_import {
     name: "framework-sdkextensions",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "sdkext_module" is true.
-    use_source_config_var: {
-        config_namespace: "sdkext_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.sdkext",
@@ -79,4 +74,10 @@ license {
     visibility: ["//visibility:private"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
+}
+
+license {
+    name: "sdkextensions-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
 }
